@@ -1,5 +1,7 @@
 **Trim-galore imcompatible with Python 3.10**
+
 failed when installing trim-galore:
+
 ```
 (rna) [medkwf4@cas591 ~]$ conda install -c bioconda trim-galore
 Collecting package metadata (current_repodata.json): done
@@ -11,5 +13,5 @@ ResolvePackageNotFound:
 ```
 Solution:https://stackoverflow.com/questions/71422525/found-conflict-while-installing-packages-with-conda
 
->specify python as an installation target: conda install -c conda-forge -c bioconda trim-galore python to allow conda to figure out which python version to change your env to
-Create a new environment specifying what you need from the beginning: conda create -n tg -c conda-forge -c bioconda python trim-galore
+>specify python as an installation target: ```conda install -c conda-forge -c bioconda trim-galore python ```to allow conda to figure out which python version to change your env to
+>Create a new environment specifying what you need from the beginning: ```conda create -n tg -c conda-forge -c bioconda python trim-galore```

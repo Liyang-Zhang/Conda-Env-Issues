@@ -1,4 +1,4 @@
-**Trim-galore imcompatible with Python 3.10**
+**Trim-galore incompatible with Python 3.10**
 
 failed when installing trim-galore:
 

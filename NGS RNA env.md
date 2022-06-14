@@ -13,5 +13,6 @@ ResolvePackageNotFound:
 ```
 Solution:https://stackoverflow.com/questions/71422525/found-conflict-while-installing-packages-with-conda
 
->specify python as an installation target: ```conda install -c conda-forge -c bioconda trim-galore python ```to allow conda to figure out which python version to change your env to
->Create a new environment specifying what you need from the beginning: ```conda create -n tg -c conda-forge -c bioconda python trim-galore```
+>1) specify python as an installation target: ```conda install -c conda-forge -c bioconda trim-galore python ```to allow conda to figure out which python version to change your env to
+>
+>2) Create a new environment specifying what you need from the beginning: ```conda create -n tg -c conda-forge -c bioconda python trim-galore```
